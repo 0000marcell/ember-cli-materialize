@@ -7,7 +7,8 @@ export default Component.extend({
   tagName: 'nav',
   layout,
   homeRoute: 'index',
-
+  menuClass: 'right hide-on-med-and-down',
+  logoClass: 'brand-logo',
   didInsertElement() {
     this._super(...arguments);
     // TODO: is this scheduling necessary?

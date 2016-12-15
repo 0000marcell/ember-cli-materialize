@@ -1,7 +1,7 @@
 <div class='nav-wrapper'>
   <div class='container'>
-    {{#link-to homeRoute class='brand-logo'}}{{name}}{{/link-to}}
-    <ul class='right hide-on-med-and-down'>
+    {{#link-to homeRoute class=logoClass}}{{name}}{{/link-to}}
+    <ul class={{menuClass}}>
       {{yield}}
     </ul>
   </div>
